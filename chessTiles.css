@@ -9,11 +9,11 @@
   .white {
     height: 100px;
     width: 100px;
-    background-color: black;
+    background-color: rgb(237,189,161);
   }
 
   .black {
     height: 100px;
     width: 100px;
-    background-color: white;
+    background-color: rgb(176,111,74);
   }
