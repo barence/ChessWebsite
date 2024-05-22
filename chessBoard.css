@@ -1,1 +1,27 @@
-body{background-color: rgb(55, 55, 55);}
+.border{  
+    border: 5px solid rgb(147, 147, 147);
+    width: 640px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: auto;
+}
+.light{
+    width: 80px;
+    height: 80px;
+    background: rgb(237,189,161);
+    
+
+}
+.dark{
+    width: 80px;
+    height: 80px;
+    background: rgb(176,111,74);
+
+
+}
+#a8:hover{
+    background: rgb(232, 224, 116);
+}
+
+
