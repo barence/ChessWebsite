@@ -1,5 +1,6 @@
 .border{  
     border: 5px solid rgb(147, 147, 147);
+    background: rgb(147, 147, 147);
     width: 640px;
     height: 640px;
     display: grid;
