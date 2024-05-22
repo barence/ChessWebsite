@@ -1,6 +1,7 @@
 .border{  
     border: 5px solid rgb(147, 147, 147);
     width: 640px;
+    height: 640px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -10,18 +11,32 @@
     width: 80px;
     height: 80px;
     background: rgb(237,189,161);
-    
-
+    animation: opening1;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
 }
 .dark{
     width: 80px;
     height: 80px;
     background: rgb(176,111,74);
-
+    animation: opening2;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
 
 }
 #a8:hover{
     background: rgb(232, 224, 116);
 }
 
-
+@keyframes opening1{
+    from{margin-left: 200%;}
+    to{margin: left 0%;}
+}
+@keyframes opening2{
+    from{margin-top: 40%;}
+    to{margin: top 0%;}
+}
