@@ -14,7 +14,7 @@
     animation: opening1;
     animation-play-state: running;
     animation-iteration-count: 1;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-out;
 }
 .dark{
@@ -24,7 +24,7 @@
     animation: opening2;
     animation-play-state: running;
     animation-iteration-count: 1;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-out;
 
 }
